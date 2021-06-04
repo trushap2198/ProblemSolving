@@ -36,7 +36,19 @@ class Solve{
         }
         
     }
+    /*
+    for (int i = 1; i <= max; i++) {
+    	System.out.println(new String(new char[max-i]).replace("\0", " ") + new String(new char[i]).replace("\0", "#"));
+    }*/
     //System.out.printf("%2d. %-20s $%.2f%n",  i + 1, BOOK_TYPE[i], COST[i]);
+
+    /* INITIALIZING EMPTY OR ANY CHARATER FILLED STRING OF FIXED LENGTH WITH STRING FORMAT
+        int length = 10;
+        String pattern = String.format("%" + length + "s",' '); 
+        System.out.println(pattern);OP= "          "
+        System.out.println(pattern.length()); op = 10
+        String pattern = String.format("%" + length + "s",' ').replace(" ","*"); op= "**********"
+        */ 
 
 }
 
